@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.6/pdfobject.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="LaCrihana, Tekwill" />
+    <meta name="autor" content="LaCrihana" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="icon" href="../images/favicon1.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="../js/main.js" defer> </script>
+
+    <title>La Crihana</title>
+</head>
+
+<body>
+    <header >
+        <a class="logo" href="../index.html">
+            <img class="logou" src="../images/logo.png">
+        </a>
+
+        <navbar id="navbar">
+            <a href="../index.html">Home</a>
+            <a href="beneficii.html">Beneficii</a>
+            <a href="turism.html">Dezvoltare turism</a>
+            <a class="active" href="contacte.html">Contacte</a>
+           
+
+        </navbar>
+
+    </header>
+    <section class="top-section" id="contacte">
+        <h1 class="top-title">Mereu aproape de tine</h1>
+    </section>
+
+    <main>
+
+        </br> </br> </br>
+        <div class="row">
+            <div class="col-50">
+                <h3 class="contact">Contactați-ne dacă:</h3>
+                <ul>
+                    <li> Solicitați mai multă informație </li>
+                    <li> Doriți să faceți o vizita la noi </li>
+                    <li> Doriți să faceți o comandă</li>
+                </ul>
+
+                <div class="contact-form">
+                    <h3 class="centered">Așteptăm mesajul Dumneavoastră</h3>
+                    <hr />
+                    <br />
+                    <form autocomplete="off" id="formular">
+                        <label for="nume">Nume*:</label>
+                        <input type="text" id="nume" pattern="[A-Z a-z]+" minlength="3" maxlength="12" size="8"
+                            placeholder="Întroduceți numele" required />
+
+                        <label for="email">Email*:</label>
+                        <input type="mail" id="email" placeholder="Întroduceți adresa electronică" required />
+
+                        <label for="mesaj">Scrieți un mesaj*:</label>
+                        <textarea id="mesaj" rows="5" cols="30" placeholder="text"></textarea>
+
+                        <input class="submit" type="button" value="Transmite" onclick="send()" />
+
+                    </form>
+
+
+
+
+                </div>
+
+            </div>
+            <div class="col-50 contact adresa">
+                <h3 class=" centered">Date de contact:</h3>
+                <i class="fas fa-phone-volume"> </i>
+                <b>Telefon:</b>
+                <a href="tel:+37367298519"> +37367298519</a>
+                <br />
+                <i class="fas fa-home"></i>
+                <b>Adresa:</b>
+                <span>str. Vasile Alecsandri</span>
+                <br />
+                <i class="fas fa-envelope"></i>
+                <b>Email:</b>
+                <a href="mailto:igorzaporojanu82@gmail.com">igorzaporojanu82@gmail.com</a>
+                                <br />
+                <a href="https://www.facebook.com/igor.zaporojanu.121"><i class="fab fa-facebook"></i></a>
+               <a href="https://www.facebook.com/igor.zaporojanu.121"> <b>Facebook:</b> Igor Zaporojanu</a> <br />
+
+                <fieldset>
+                    <legend>Pentru a ne găsi mai ușor consultați harta:</legend>
+
+
+                    <iframe class="harta"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3028.587704515953!2d28.18662695115457!3d45.852916715339674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDUxJzEwLjUiTiAyOMKwMTEnMTkuOCJF!5e1!3m2!1sru!2s!4v1676493009427!5m2!1sru!2s"
+                        width="580" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+
+                </fieldset>
+            </div>
+
+
+
+        
+
+
+
+    </main>
+    <footer>
+
+        <marquee>
+            La Crihana ©️ -
+            <i>
+                Acest website a fost realizat în cadrul
+competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare
+Școală” și nu reflectă neapărat opinia proiectului.
+            </i>
+        </marquee>
+
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
